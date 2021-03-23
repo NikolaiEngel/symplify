@@ -89,7 +89,13 @@ final class TokenFinder
             throw new ShouldNotHappenException();
         }
 
+<<<<<<< HEAD
         return $tokens[$previousPosition];
+=======
+        $previousToken = $tokens[$previousPosition];
+
+        return $previousToken;
+>>>>>>> bc07a4fc7... make conflicts last
     }
 
     /**
